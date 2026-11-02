@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamza - Portfolio</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#0f172a;color:white;}
+header{padding:20px;text-align:center;background:#1e293b;}
+header h1{margin:0;font-size:32px;color:#38bdf8;}
+header p{color:#cbd5e1;}
+.hero{padding:60px 20px;text-align:center;}
+.hero h2{font-size:40px;margin-bottom:10px;}
+.hero h2 span{color:#38bdf8;}
+.btn{background:#38bdf8;color:#0f172a;padding:12px 25px;text-decoration:none;border-radius:25px;font-weight:bold;display:inline-block;margin-top:20px;}
+section{padding:40px 20px;max-width:900px;margin:auto;}
+.card{background:#1e293b;padding:20px;border-radius:15px;margin-top:20px;}
+.skills span{background:#334155;padding:8px 15px;border-radius:20px;margin:5px;display:inline-block;}
+footer{text-align:center;padding:20px;background:#1e293b;margin-top:40px;color:#94a3b8;}
+</style>
+</head>
+<body>
+<header>
+<h1>Hamza Ameer</h1>
+<p>Web Developer | Designer | Freelancer</p>
+</header>
+<div class="hero">
+<h2>Hello, I'm <span>Hamza</span></h2>
+<p>I build modern and fast websites for businesses.</p>
+<a href="#contact" class="btn">Hire Me on Fiverr</a>
+</div>
+<section>
+<h2>About Me</h2>
+<div class="card">
+<p>I'm a passionate web developer from Pakistan. I help small businesses and startups to create beautiful websites that convert visitors into customers. Mobile friendly, fast and professional work.</p>
+</div>
+<h2>My Skills</h2>
+<div class="card">
+<div class="skills">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>WordPress</span>
+<span>GitHub</span>
+<span>Fiverr Gig Design</span>
+</div>
+</div>
+<h2 id="contact">Contact Me</h2>
+<div class="card">
+<p>Email: hamzaameer@email.com</p>
+<p>Location: Islamabad, Pakistan</p>
+<p>Fiverr: Available for new projects</p>
+</div>
+</section>
+<footer>
+<p>© 2026 Hamza Ameer. All rights reserved.</p>
+</footer>
+</body>
+</html>
